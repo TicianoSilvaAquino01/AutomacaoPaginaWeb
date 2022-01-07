@@ -1,0 +1,243 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-28T23:42:11.450Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8188000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "eadIterasys.BuscaCurso.iniciar()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Buscar Varios Cursos",
+        "description": "",
+        "id": "busca-curso;buscar-varios-cursos;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1436000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "eadIterasys.BuscaCurso.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10084000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "que acesso o site da Iterasys",
+            "match": {
+              "location": "eadIterasys.BuscaCurso.que_acesso_o_site_da_Iterasys()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1881000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "consulto pelo \"Mantis\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mantis\"",
+                  "offset": 14
+                }
+              ],
+              "location": "eadIterasys.BuscaCurso.consulto_pelo(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 4825000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "exibe uma lista com \"Mantis\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mantis\"",
+                  "offset": 20
+                }
+              ],
+              "location": "eadIterasys.BuscaCurso.exibe_uma_lista_com(java.lang.String)"
+            },
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 4643000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "clico em Matricule-se",
+            "match": {
+              "location": "eadIterasys.BuscaCurso.clico_em_Matricule_se()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 213000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "exibe o titulo do \"Mantis\" e o valor \"R$ 49,99\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mantis\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"R$ 49,99\"",
+                  "offset": 37
+                }
+              ],
+              "location": "eadIterasys.BuscaCurso.exibe_o_titulo_do_e_o_valor(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-28T23:42:43.504Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3567000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "eadIterasys.BuscaCurso.iniciar()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Buscar Varios Cursos",
+        "description": "",
+        "id": "busca-curso;buscar-varios-cursos;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2217000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "eadIterasys.BuscaCurso.finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12266000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "que acesso o site da Iterasys",
+            "match": {
+              "location": "eadIterasys.BuscaCurso.que_acesso_o_site_da_Iterasys()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2056000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "consulto pelo \"Fundamentos do Java\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fundamentos do Java\"",
+                  "offset": 14
+                }
+              ],
+              "location": "eadIterasys.BuscaCurso.consulto_pelo(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 2983000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "exibe uma lista com \"Fundamentos do Java\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fundamentos do Java\"",
+                  "offset": 20
+                }
+              ],
+              "location": "eadIterasys.BuscaCurso.exibe_uma_lista_com(java.lang.String)"
+            },
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 5899000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "clico em Matricule-se",
+            "match": {
+              "location": "eadIterasys.BuscaCurso.clico_em_Matricule_se()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 556000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "exibe o titulo do \"Fundamentos do Java\" e o valor \"R$ 119,90\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fundamentos do Java\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"R$ 119,90\"",
+                  "offset": 50
+                }
+              ],
+              "location": "eadIterasys.BuscaCurso.exibe_o_titulo_do_e_o_valor(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Busca Curso",
+    "description": "",
+    "id": "busca-curso",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/BuscaCurso.feature",
+    "tags": []
+  }
+]
